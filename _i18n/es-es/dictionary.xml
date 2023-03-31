@@ -38,10 +38,8 @@
   <block id="f22cb7c9b8713326a930c00edca70cee" category="list-text">Clonar una aplicación desde el almacenamiento provisional a la producción</block>
   <block id="5ec023826f488423d711ac0df1d9f4c5" category="list-text">Replicación de aplicaciones en un sistema remoto mediante la tecnología SnapMirror de NetApp</block>
   <block id="1c26e7db082840fcbfcd87527c92e1aa" category="list-text">Visualizar el estado de la protección y el estado de la aplicación</block>
-  <block id="d76164e1b3355567bfd6f6fa67a1b598" category="list-text">Trabaje con una interfaz de usuario o una API para implementar sus flujos de trabajo de backup y migración</block>
   <block id="6762973af9b127d271f0d2b2aea0bc96" category="section-title">Modelos de puesta en marcha</block>
   <block id="db1905d057dd6fde6f8b7bd6afe60e41" category="paragraph">Astra Control está disponible en dos modelos de implementación:</block>
-  <block id="2421b9af67a887e6737023c5b8ec66f2" category="list-text">*Astra Control Service*: Un servicio gestionado por NetApp que proporciona gestión de datos para aplicaciones de clústeres de Kubernetes en Amazon Web Services (AWS), Azure Kubernetes Service (AKS) y Google Kubernetes Engine (GKE).</block>
   <block id="ef22ff17624b3faeed227ce5c717eb5f" category="inline-link">Documentación de Astra Control Service</block>
   <block id="6762180adf48075df77efbf264e982ec" category="paragraph"><block ref="6762180adf48075df77efbf264e982ec" category="inline-link-rx"></block></block>
   <block id="a3b55d525a2386049955089c958fb85f" category="list-text">*Astra Control Center*: Software autogestionado que proporciona gestión de datos para aplicaciones de clústeres de Kubernetes que se ejecutan en su entorno local. Astra Control Center también se puede instalar con un back-end de almacenamiento Cloud Volumes ONTAP de NetApp en Amazon Web Services, Microsoft Azure y Google Cloud Platform (GCP).</block>
@@ -69,7 +67,6 @@
   <block id="79c9c43a409053927cc323915dbf1c06" category="list-text">Discos gestionados de Azure</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="list-text">Azure NetApp Files</block>
   <block id="d6fc0eb1930e7e56affc953c237c5514" category="list-text">Sistemas ONTAP AFF y FAS de NetApp</block>
-  <block id="570fa99ce4fbf8deb198b97a6931d63a" category="list-text">Entorno de administración del almacenamiento de Cloud Volumes ONTAP</block>
   <block id="086e6c16e3fe8e13c336612ef636aa02" category="section-title">Astra Trident</block>
   <block id="8c194651a71f99966bb16a65c5ed39ba" category="paragraph">Astra Trident es la implementación de código abierto de NetApp de una interfaz de almacenamiento de contenedores Kubernetes (CSI) driver​. Astra Trident proporciona orquestación y conectividad de datos para Kubernetes applications​.</block>
   <block id="14d9b10c6196045941347a9e85704b50" category="inline-link">Documentación de Astra Trident</block>
@@ -95,4 +92,9 @@
   <block id="e0f4a858a15b865d90b24b46633e2899" category="sidebar">Utilice la gestión y el aprovisionamiento de almacenamiento conforme a la normativa CSI para cargas de trabajo de Kubernetes con los proveedores de almacenamiento de NetApp.</block>
   <block id="7d71aa0082960701504d9a25825cec9a" category="sidebar">Automatización y API de Astra</block>
   <block id="9ba87b2fd4ad6a397bd73df498a72886" category="sidebar">Utilice una API y SDK para automatizar los flujos de trabajo de Astra en sus operaciones.</block>
+  <block id="6c4ff7542dcef16bc12bbbab0c160e9a" category="list-text">Trabaje con una interfaz de usuario web o una API para implementar sus flujos de trabajo de backup y migración</block>
+  <block id="b7372905cd310308af0541e07ef5175f" category="list-text">*Astra Control Service*: Un servicio gestionado por NetApp que proporciona gestión de datos para aplicaciones de clústeres de Kubernetes en varios entornos de proveedores de cloud, así como clústeres de Kubernetes autogestionados.</block>
+  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link-macro">Cloud Volumes ONTAP</block>
+  <block id="3be7ceee76706d9dfc15d8f9c233dfb8" category="list-text"><block ref="3be7ceee76706d9dfc15d8f9c233dfb8" category="inline-link-macro-rx"></block></block>
+  <block id="d9e6278e0d2ca01f55d0a29da9caa34f" category="list-text">Clústeres autogestionados</block>
 </blocks>
