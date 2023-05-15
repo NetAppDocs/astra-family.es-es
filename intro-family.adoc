@@ -54,11 +54,11 @@ Astra Control está disponible en dos modelos de implementación:
 
 * *Astra Control Service*: Un servicio gestionado por NetApp que proporciona gestión de datos para aplicaciones de clústeres de Kubernetes en varios entornos de proveedores de cloud, así como clústeres de Kubernetes autogestionados.
 +
-https://docs.netapp.com/us-en/astra/index.html["Documentación de Astra Control Service"^]
+https://["Documentación de Astra Control Service"^]
 
 * *Astra Control Center*: Software autogestionado que proporciona gestión de datos para aplicaciones de clústeres de Kubernetes que se ejecutan en su entorno local. Astra Control Center también se puede instalar en entornos de varios proveedores de cloud con un entorno de administración del almacenamiento Cloud Volumes ONTAP de NetApp.
 +
-https://docs.netapp.com/us-en/astra-control-center/["Documentación de Astra Control Center"^]
+https://["Documentación de Astra Control Center"^]
 
 
 
@@ -93,7 +93,7 @@ Usted administra cualquier actualización
 +
 ** Amazon EBS
 ** Amazon FSX para ONTAP de NetApp
-** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-aws.html["Cloud Volumes ONTAP"^]
 
 
 * Google Cloud:
@@ -107,7 +107,7 @@ Usted administra cualquier actualización
 +
 ** Discos gestionados de Azure
 ** Azure NetApp Files
-** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-azure.html["Cloud Volumes ONTAP"^]
 
 
 * Clústeres autogestionados:
@@ -115,13 +115,13 @@ Usted administra cualquier actualización
 ** Amazon EBS
 ** Disco persistente de Google
 ** Discos gestionados de Azure
-** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-overview-cvo.html["Cloud Volumes ONTAP"^]
 
 
 
  a| 
 * Sistemas ONTAP AFF y FAS de NetApp
-* link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
+* link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-overview-cvo.html["Cloud Volumes ONTAP"^]
 
 
 |===
@@ -131,16 +131,16 @@ Usted administra cualquier actualización
 
 Astra Trident es la implementación de código abierto de NetApp de una interfaz de almacenamiento de contenedores Kubernetes (CSI) driver​. Astra Trident proporciona orquestación y conectividad de datos para Kubernetes applications​.
 
-https://docs.netapp.com/us-en/trident/index.html["Documentación de Astra Trident"^]
+https://["Documentación de Astra Trident"^]
 
 
 
 == Si quiere más información
 
-* https://docs.netapp.com/us-en/astra/index.html["Documentación de Astra Control Service"^]
-* https://docs.netapp.com/us-en/astra-control-center/["Documentación de Astra Control Center"^]
-* https://docs.netapp.com/us-en/trident/index.html["Documentación de Astra Trident"^]
-* https://docs.netapp.com/us-en/astra-automation/index.html["API de control Astra"^]
-* https://docs.netapp.com/us-en/cloudinsights/["Documentación de Cloud Insights"^]
-* https://docs.netapp.com/us-en/ontap/index.html["Documentación de ONTAP"^]
+* https://["Documentación de Astra Control Service"^]
+* https://["Documentación de Astra Control Center"^]
+* https://["Documentación de Astra Trident"^]
+* https://["API de control Astra"^]
+* https://["Documentación de Cloud Insights"^]
+* https://["Documentación de ONTAP"^]
 
