@@ -54,11 +54,11 @@ Astra Control está disponible en dos modelos de implementación:
 
 * *Astra Control Service*: Un servicio gestionado por NetApp que proporciona gestión de datos para aplicaciones de clústeres de Kubernetes en varios entornos de proveedores de cloud, así como clústeres de Kubernetes autogestionados.
 +
-https://["Documentación de Astra Control Service"^]
+https://docs.netapp.com/us-en/astra/index.html["Documentación de Astra Control Service"^]
 
 * *Astra Control Center*: Software autogestionado que proporciona gestión de datos para aplicaciones de clústeres de Kubernetes que se ejecutan en su entorno local. Astra Control Center también se puede instalar en entornos de varios proveedores de cloud con un entorno de administración del almacenamiento Cloud Volumes ONTAP de NetApp.
 +
-https://["Documentación de Astra Control Center"^]
+https://docs.netapp.com/us-en/astra-control-center/["Documentación de Astra Control Center"^]
 
 
 
@@ -131,16 +131,16 @@ Usted administra cualquier actualización
 
 Astra Trident es la implementación de código abierto de NetApp de una interfaz de almacenamiento de contenedores Kubernetes (CSI) driver​. Astra Trident proporciona orquestación y conectividad de datos para Kubernetes applications​.
 
-https://["Documentación de Astra Trident"^]
+https://docs.netapp.com/us-en/trident/index.html["Documentación de Astra Trident"^]
 
 
 
 == Si quiere más información
 
-* https://["Documentación de Astra Control Service"^]
-* https://["Documentación de Astra Control Center"^]
-* https://["Documentación de Astra Trident"^]
-* https://["API de control Astra"^]
-* https://["Documentación de Cloud Insights"^]
-* https://["Documentación de ONTAP"^]
+* https://docs.netapp.com/us-en/astra/index.html["Documentación de Astra Control Service"^]
+* https://docs.netapp.com/us-en/astra-control-center/["Documentación de Astra Control Center"^]
+* https://docs.netapp.com/us-en/trident/index.html["Documentación de Astra Trident"^]
+* https://docs.netapp.com/us-en/astra-automation/index.html["API de control Astra"^]
+* https://docs.netapp.com/us-en/cloudinsights/["Documentación de Cloud Insights"^]
+* https://docs.netapp.com/us-en/ontap/index.html["Documentación de ONTAP"^]
 
