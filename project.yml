@@ -2,54 +2,13 @@
 settings:
   name: Astra Family
   search: astra-control-service,astra-control-center,astra-automation,trident
+  internal:
+    pdf_enabled: false
   prod:
+    pdf_enabled: false
     harmony_enabled: false
   langs: es-es,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,fr-fr,it-it
 sidebar:
   entries:
   - title: Documentación de la familia de productos Astra
     url: "/index.html"
-  - title: Avisos legales
-    url: "/legal-notices.html"
-product-family:
-  sidebarlinks:
-  - title: Todos los productos
-    tags: tag_application_data_management,tag_storage_management,tag_data_storage,tag_api,tag_get_started
-    class: active
-  - title: Gestión de datos de aplicaciones
-    tags: tag_application_data_management
-  - title: Gestión del almacenamiento
-    tags: tag_storage_management
-  - title: Automatización y API
-    tags: tag_api
-  tiles:
-  - title: Más información sobre Astra Control
-    icon: "./media/Astra_Family_logo_line.png"
-    url: intro-family.html
-    summary: Más información sobre la familia de productos Astra.
-    tags: all, tag_get_started
-  - title: Servicio de control Astra
-    icon: "./media/Astra_Control_logo_line.png"
-    url: https://docs.netapp.com/us-en/astra/index.html
-    summary: Use un servicio gestionado por NetApp para la gestión de datos para aplicaciones
-      de cargas de trabajo de Kubernetes en clouds públicos.
-    tags: all, tag_application_data_management
-  - title: Astra Control Center
-    icon: "./media/Astra_Control_logo_line.png"
-    url: https://docs.netapp.com/us-en/astra-control-center/index.html
-    summary: Use un software autogestionado para la gestión de datos para aplicaciones
-      de cargas de trabajo de Kubernetes en las instalaciones.
-    tags: all, tag_application_data_management
-  - title: Astra Trident
-    icon: "./media/Astra_Trident_logo_line2.png"
-    url: https://docs.netapp.com/us-en/trident/index.html
-    summary: Utilice la gestión y el aprovisionamiento de almacenamiento conforme
-      a la normativa CSI para cargas de trabajo de Kubernetes con los proveedores
-      de almacenamiento de NetApp.
-    tags: all, tag_storage_management
-  - title: Automatización y API de Astra
-    icon: "./media/Astra_Family_logo_line.png"
-    url: https://docs.netapp.com/us-en/astra-automation/index.html
-    summary: Utilice una API y SDK para automatizar los flujos de trabajo de Astra
-      en sus operaciones.
-    tags: all, tag_api
