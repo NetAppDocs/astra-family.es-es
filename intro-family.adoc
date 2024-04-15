@@ -91,7 +91,7 @@ Astra Control se basa en cuatro componentes complementarios:
 
 Astra Control está disponible en dos modelos de puesta en marcha.
 
-image:astra-architecture-diagram-v6.png["Modelos de puesta en marcha de Astra"]
+image:astra-architecture-diagram-v7.png["Modelos de puesta en marcha de Astra"]
 
 * *Astra Control Service*: Un servicio gestionado por NetApp que proporciona gestión de datos para aplicaciones de clústeres de Kubernetes en varios entornos de proveedores de cloud, así como clústeres de Kubernetes autogestionados.
 +
@@ -150,7 +150,7 @@ Usted administra cualquier actualización
 ** OpenShift Container Platform de Red Hat
 
 
-* *Clusters on-premise*
+* * Clústeres locales*
 +
 ** Red Hat OpenShift Container Platform en las instalaciones
 
@@ -202,7 +202,7 @@ Usted administra cualquier actualización
 ** https://longhorn.io/["El Longhorn"^]
 
 
-* *Clusters on-premise*
+* * Clústeres locales*
 +
 ** NetApp MetroCluster
 ** Sistemas ONTAP AFF y FAS de NetApp
