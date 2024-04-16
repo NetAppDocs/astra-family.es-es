@@ -38,7 +38,7 @@ product-family:
       de cargas de trabajo de Kubernetes en las instalaciones.
     tags: tag_all, tag_application_data_management
   - title: Astra Trident
-    icon: "./media/Astra-Trident-logo.png"
+    icon: "./media/Astra-Trident-logo2.png"
     url: "../trident/index.html"
     summary: Utilice la gestión y el aprovisionamiento de almacenamiento conforme
       a la normativa CSI para cargas de trabajo de Kubernetes con los proveedores
