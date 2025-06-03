@@ -11,7 +11,7 @@ summary: Astra es un servicio de gestión del ciclo de vida de los datos de las 
 
 
 [role="lead"]
-Astra Control es una solución de gestión del ciclo de vida de los datos de aplicaciones de Kubernetes que simplifica las operaciones de aplicaciones con estado y te ayuda a almacenar, proteger y mover tus cargas de trabajo de Kubernetes entre entornos híbridos y multinube.
+Astra Control es una solución de gestión del ciclo de vida de los datos de aplicaciones Kubernetes que simplifica las operaciones de las aplicaciones con estado y lo ayuda a almacenar, proteger y mover sus cargas de trabajo de Kubernetes en entornos híbridos.
 
 
 
@@ -48,13 +48,11 @@ La arquitectura de Astra Control permite que los departamentos de tecnología pr
 
 Astra Control es nativo de Kubernetes, lo que permite flujos de trabajo de protección de datos que utilizan recursos personalizados y siguen siendo compatibles con las API y el SDK existentes. La protección de datos nativa de Kubernetes ofrece importantes ventajas; al integrarse sin problemas con las API y los recursos de Kubernetes, la protección de datos puede convertirse en una parte inherente del ciclo de vida de la aplicación mediante las herramientas GitOps o CI/CD existentes de una organización.
 
-image:astra-family-architecture-v1_IEOPS-1558.png["Arquitectura de Astra Control"]
-
 Astra Control se basa en cuatro componentes complementarios:
 
-* *Astra Control*: Astra Control es el servicio de gestión centralizado para todos los clústeres gestionados, proporcionando cargas de trabajo orquestadas para la protección y movilidad de aplicaciones en la nube y on-premises, así como las siguientes capacidades:
+* *Astra Control*: Astra Control es el servicio de administración centralizada para todos los clústeres administrados, que proporciona cargas de trabajo orquestadas para la protección y movilidad de aplicaciones locales, así como las siguientes capacidades:
 +
-** Vista combinada de varios clústeres y clouds
+** Vista combinada de múltiples clústeres
 ** Protección de flujos de trabajo orquestados
 ** Visualización y selección granular de recursos
 
@@ -89,74 +87,27 @@ Astra Control se basa en cuatro componentes complementarios:
 
 == Modelos de puesta en marcha
 
-Astra Control está disponible en dos modelos de puesta en marcha.
+Astra Control está disponible en un único modelo de implementación.
 
-image:astra-architecture-diagram-v7.png["Modelos de puesta en marcha de Astra"]
+*Astra Control Center*: Software autogestionado que proporciona gestión de datos para aplicaciones de clústeres de Kubernetes que se ejecutan en su entorno local. Astra Control Center también se puede instalar en entornos de varios proveedores de cloud con un entorno de administración del almacenamiento Cloud Volumes ONTAP de NetApp.
 
-* *Astra Control Service*: Un servicio gestionado por NetApp que proporciona gestión de datos para aplicaciones de clústeres de Kubernetes en varios entornos de proveedores de cloud, así como clústeres de Kubernetes autogestionados.
-+
-https://docs.netapp.com/us-en/astra/index.html["Documentación de Astra Control Service"^]
-
-* *Astra Control Center*: Software autogestionado que proporciona gestión de datos para aplicaciones de clústeres de Kubernetes que se ejecutan en su entorno local. Astra Control Center también se puede instalar en entornos de varios proveedores de cloud con un entorno de administración del almacenamiento Cloud Volumes ONTAP de NetApp.
-+
 https://docs.netapp.com/us-en/astra-control-center/["Documentación de Astra Control Center"^]
 
-
-
-[cols="1h,2d,2a"]
+[cols="1h,2d"]
 |===
-|  | Servicio de control Astra | Astra Control Center 
+|  | Astra Control Center 
 
 
-| ¿Cómo se ofrece? | Como un servicio cloud totalmente gestionado de NetApp  a| 
-Como software que se puede descargar, instalar y gestionar
+| ¿Cómo se ofrece? | Como software que se puede descargar, instalar y gestionar 
 
 
-
-| ¿Dónde está alojado? | En un cloud público que elija NetApp  a| 
-En su propio clúster de Kubernetes
+| ¿Dónde está alojado? | En su propio clúster de Kubernetes 
 
 
-
-| ¿Cómo se actualiza? | Gestionado por NetApp  a| 
-Usted administra cualquier actualización
-
+| ¿Cómo se actualiza? | Usted administra cualquier actualización 
 
 
 | ¿Cuáles son las distribuciones de Kubernetes compatibles?  a| 
-* * Proveedores en la nube*
-+
-** Amazon Web Services
-+
-*** Amazon Elastic Kubernetes Service (EKS)
-
-
-** Google Cloud
-+
-*** Google Kubernetes Engine (GKE)
-
-
-** Microsoft Azure
-+
-*** Azure Kubernetes Service (AKS)
-
-
-
-
-* *Clusters autogestionados*
-+
-** Kubernetes (ascendente)
-** Motor Kubernetes de rancher (RKE)
-** OpenShift Container Platform de Red Hat
-
-
-* * Clústeres locales*
-+
-** Red Hat OpenShift Container Platform en las instalaciones
-
-
-
- a| 
 * Azure Kubernetes Service en HCI de pila de Azure
 * Anthos de Google
 * Kubernetes (ascendente)
@@ -167,52 +118,6 @@ Usted administra cualquier actualización
 
 
 | ¿Cuáles son los back-ends de almacenamiento compatibles?  a| 
-* * Proveedores en la nube*
-+
-** Amazon Web Services
-+
-*** Amazon EBS
-*** Amazon FSX para ONTAP de NetApp
-*** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
-
-
-** Google Cloud
-+
-*** Disco persistente de Google
-*** Cloud Volumes Service de NetApp
-*** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
-
-
-** Microsoft Azure
-+
-*** Discos gestionados de Azure
-*** Azure NetApp Files
-*** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-azure.html["Cloud Volumes ONTAP"^]
-
-
-
-
-* *Clusters autogestionados*
-+
-** Amazon EBS
-** Discos gestionados de Azure
-** Disco persistente de Google
-** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/["Cloud Volumes ONTAP"^]
-** NetApp MetroCluster
-** https://longhorn.io/["El Longhorn"^]
-
-
-* * Clústeres locales*
-+
-** NetApp MetroCluster
-** Sistemas ONTAP AFF y FAS de NetApp
-** ONTAP Select de NetApp
-** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/["Cloud Volumes ONTAP"^]
-** https://longhorn.io/["El Longhorn"^]
-
-
-
- a| 
 * Sistemas ONTAP AFF y FAS de NetApp
 * ONTAP Select de NetApp
 * https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/["Cloud Volumes ONTAP"^]
@@ -224,7 +129,6 @@ Usted administra cualquier actualización
 
 == Si quiere más información
 
-* https://docs.netapp.com/us-en/astra/index.html["Documentación de Astra Control Service"^]
 * https://docs.netapp.com/us-en/astra-control-center/["Documentación de Astra Control Center"^]
 * https://docs.netapp.com/us-en/trident/index.html["Documentación de Astra Trident"^]
 * https://docs.netapp.com/us-en/astra-automation/index.html["API de control Astra"^]
